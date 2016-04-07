@@ -3,7 +3,7 @@
 [![GitHub tag][github-image-tag]][github-url]
 [![npm version][npm-image-version]][npm-url]
 [![npm downloads][npm-image-downloads]][npm-url]
-[![Build Status](https://img.shields.io/travis/MovingImage24/mi-angular-websocket-service.svg)](https://travis-ci.org/MovingImage24/mi-angular-websocket-service)
+[![Build Status][travis-image-status]][travis-url]
 [![Coverage Status](https://coveralls.io/repos/MovingImage24/mi-angular-websocket-service/badge.svg?branch=master&service=github)](https://coveralls.io/github/MovingImage24/mi-angular-websocket-service?branch=master)
 [![dependency Status](https://david-dm.org/MovingImage24/mi-angular-websocket-service/status.svg)](https://david-dm.org/MovingImage24/mi-angular-websocket-service#info=dependencies)
 [![devDependency Status](https://david-dm.org/MovingImage24/mi-angular-websocket-service/dev-status.svg)](https://david-dm.org/MovingImage24/mi-angular-websocket-service#info=devDependencies)
@@ -57,3 +57,5 @@ This library is under the [MIT license](https://github.com/MovingImage24/mi-angu
 [npm-image-version]: https://img.shields.io/npm/v/mi-angular-websocket-service.svg?style=flat-square
 [npm-image-downloads]: https://img.shields.io/npm/dm/mi-angular-websocket-service.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/mi-angular-websocket-service
+[travis-image-status]: https://img.shields.io/travis/MovingImage24/mi-angular-websocket-service.svg?style=flat-square
+[travis-url]: https://travis-ci.org/MovingImage24/mi-angular-websocket-service
