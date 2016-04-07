@@ -40,6 +40,8 @@
     "karma-webpack": "^1.7.0",
     "ng-annotate-webpack-plugin": "^0.1.2",
     "phantomjs-prebuilt": "^2.1.7",
+    "sockjs-client": "^1.0.3",
+    "stompjs": "^2.3.3",
     "webpack": "^1.12.14"
   },
   "scripts": {

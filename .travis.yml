@@ -7,3 +7,12 @@ node_js:
 - '4.2'
 - '4.3'
 - '4.4'
+deploy:
+  provider: npm
+  email: dasrick@gmail.com
+  api_key:
+    secure: sWOcTStpI5gWM5/53oPHLdkQQ/ZmtPaxrJWQv/e4N6pYFCAwv0F0ZZTAf37bDFJSm21MyPJKtQwr7W19bReWlwgEVNv2M/sOHwK9dXIuIaazQl30araLN8ri1/M3ZqH93x7rdVeCCg3tFyYgWqLrnbfozwOTeSrQfxbmwew5QPMCgGS4a3oTP6ZxzPYOKL61D8tYuReSvrVOlYzvQi4CEUhmQjqFGUXCZkMFperAIp4FourEpZs8vT21PCd7I2ebHhef1ANiniFm0p5cSZbeX9W9Li/FS6geT/G1TOF8e5tfZw7e/YNOwIeqDxmTZA/0pwlvjtyaKx5FMwMfR2NHGwfugbSdxImTpsuzThzYN2BLcxVo/5h1EYjDBw7gz+7/JudbbjWh2d2wSSkSc98rudHESrZXxvF7hmXYsOEK3K1p3O1Qkm9MfkAtKIIBhjXH/CKJugdpCPzWr+D+B4gL41YF/Mu6Yk8VLrFeFmVrmdxT86Ln33+hpAnhuq5t0z5HXqsnq7NGg0AXYNzqcx8zllapbc0m+G7Swbh6vWv1sXwQg3DJCgsrC5bfKUOLd7Gl3AJ8+KwpIeZtOz3uy1+rEVQUll66TECBbL4eNwQ3Xu80o/RvBstLuLAhsDMb1g8W9qEcVpHlpNfUinzjm+Ymk1X3YtoJqZS2rbgCfZoykd0=
+  on:
+    tags: true
+    repo: MovingImage24/mi-angular-websocket-service
+    node: '4.4'
