@@ -12,7 +12,7 @@ module.exports = function (karma) {
       'test/**/*spec.js'
     ],
 
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress', 'coverage', 'coveralls'],
 
     coverageReporter: {
       dir: 'coverage/',
