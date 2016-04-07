@@ -1,0 +1,51 @@
+{
+  "name": "mi-angular-websocket-service",
+  "version": "0.0.0",
+  "description": "WebSocket Service for AngularJS 1",
+  "author": {
+    "name": "MovingIMAGE24",
+    "url": "http://www.movingimage24.com/"
+  },
+  "contributors": [
+    {
+      "name": "Enrico Hoffmann",
+      "email": "enrico.hoffmann@movingimage.com"
+    }
+  ],
+  "license": "MIT",
+  "main": "dist/mi-angular-websocket-service.js",
+  "keywords": [
+    "angularjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MovingImage24/mi-angular-websocket-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MovingImage24/mi-angular-websocket-service/issues"
+  },
+  "homepage": "https://github.com/MovingImage24/mi-angular-websocket-service#readme",
+  "devDependencies": {
+    "angular": "^1.5.3",
+    "angular-mocks": "^1.5.3",
+    "istanbul-instrumenter-loader": "^0.2.0",
+    "jasmine-core": "^2.4.1",
+    "jscs": "^2.11.0",
+    "karma": "^0.13.22",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-junit-reporter": "^0.4.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-webpack": "^1.7.0",
+    "ng-annotate-webpack-plugin": "^0.1.2",
+    "phantomjs-prebuilt": "^2.1.7",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "prebuild:js": "jscs ./src ./test",
+    "build": "npm run build:js && npm run build:js-min",
+    "build:js": "webpack --config webpack.config.js",
+    "build:js-min": "webpack --config webpack.min.config.js",
+    "test": "karma start karma.config.js"
+  }
+}

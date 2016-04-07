@@ -1,0 +1,7 @@
+src
+test
+.jscsrc
+.travis.yml
+karma.config.js
+webpack.config.js
+webpack.min.config.js
