@@ -4,7 +4,7 @@
 [![npm version][npm-image-version]][npm-url]
 [![npm downloads][npm-image-downloads]][npm-url]
 [![Build Status][travis-image-status]][travis-url]
-[![Coverage Status](https://coveralls.io/repos/MovingImage24/mi-angular-websocket-service/badge.svg?branch=master&service=github)](https://coveralls.io/github/MovingImage24/mi-angular-websocket-service?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/MovingImage24/mi-angular-websocket-service/badge.svg?branch=master)](https://coveralls.io/github/MovingImage24/mi-angular-websocket-service?branch=master)
 [![dependency Status](https://david-dm.org/MovingImage24/mi-angular-websocket-service/status.svg)](https://david-dm.org/MovingImage24/mi-angular-websocket-service#info=dependencies)
 [![devDependency Status](https://david-dm.org/MovingImage24/mi-angular-websocket-service/dev-status.svg)](https://david-dm.org/MovingImage24/mi-angular-websocket-service#info=devDependencies)
 [![License](https://img.shields.io/github/license/MovingImage24/mi-angular-websocket-service.svg)](https://github.com/MovingImage24/mi-angular-websocket-service/blob/master/LICENSE)
