@@ -28,9 +28,12 @@ module.exports = function ($q, $log) {
       webSocketClient = window.Stomp.over(new window.SockJS(stompConfig.host));
       webSocketClient.heartbeat.incoming = 0;
       webSocketClient.heartbeat.outgoing = 0;
-      webSocketClient.debug = function (message) {
-        $log.debug('STOMP DEBUG:\'' + message + '\'');
-      };
+      webSocketClient.debug = null;
+      if (angular.isDefined(stompConfig.debug) && stompConfig.debug === true) {
+        webSocketClient.debug = function (message) {
+          $log.debug('STOMP DEBUG:\'' + message + '\'');
+        };
+      }
       onConnect = function () {
         return deferred.resolve();
       };
