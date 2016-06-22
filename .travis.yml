@@ -2,11 +2,8 @@ language: node_js
 node_js:
 - '0.10'
 - '0.12'
-- '4.0'
-- '4.1'
-- '4.2'
-- '4.3'
-- '4.4'
+- '4'
+- '5'
 deploy:
   provider: npm
   email: dasrick@gmail.com
@@ -15,4 +12,4 @@ deploy:
   on:
     tags: true
     repo: MovingImage24/mi-angular-websocket-service
-    node: '4.4'
+    node: '4'
