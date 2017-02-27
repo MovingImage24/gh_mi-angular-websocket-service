@@ -1,6 +1,6 @@
 {
   "name": "mi-angular-websocket-service",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "WebSocket Service for AngularJS 1",
   "author": {
     "name": "MovingIMAGE24",
