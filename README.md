@@ -1,3 +1,7 @@
+### This repository is deprecated!
+
+### The relevant repository can be found here [mi-angular-websocket-service](https://github.com/movingimage-evp/mi-angular-websocket-service)
+
 # MI Angular Websocket Service
 
 [![GitHub tag][github-image-tag]][github-url]
